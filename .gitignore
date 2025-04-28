@@ -1,1 +1,23 @@
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Data
+*.csv
+*.xlsx
+
+# Models
+*.pkl
+
+# Virtual environments
+.env/
+.venv/
+env/
 venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
