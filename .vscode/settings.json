@@ -16,5 +16,7 @@
       "scminput": false
     },
     "githubPullRequests.pullBranch": "never",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "markdown.extension.toc.updateOnSave": true
+
   }

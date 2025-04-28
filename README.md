@@ -7,23 +7,39 @@
 
 ---
 
+<!-- TOC -->
+<!-- TOC -->
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Project Goals](#project-goals)
-- [Skills and Technologies Used](#skills-and-technologies-used)
-- [Code Quality and Style](#code-quality-and-style)
-- [Project Structure](#project-structure)
-- [Test-Driven Development Workflow](#test-driven-development-workflow)
-- [Dataset(s)](#datasets)
-- [How to Run the Project](#how-to-run-the-project)
-- [Project Status](#project-status)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [🧬 Biohacking Personal Optimization Predictor](#-biohacking-personal-optimization-predictor)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [Overview](#overview)
+  - [Project Goals](#project-goals)
+  - [Skills and Technologies Used](#skills-and-technologies-used)
+  - [Code Quality and Style](#code-quality-and-style)
+    - [How to Format Code](#how-to-format-code)
+    - [How to Lint Code](#how-to-lint-code)
+  - [All code should pass both Black formatting and Ruff linting before being committed.](#all-code-should-pass-both-black-formatting-and-ruff-linting-before-being-committed)
+  - [Project Structure](#project-structure)
+  - [Test-Driven Development Workflow](#test-driven-development-workflow)
+  - [Dataset(s)](#datasets)
+  - [How to Run the Project](#how-to-run-the-project)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Set Up the Virtual Environment](#2-set-up-the-virtual-environment)
+    - [3. Install Required Packages](#3-install-required-packages)
+    - [4. Running Tests](#4-running-tests)
+    - [5. Running the Streamlit App (Potential for Later)](#5-running-the-streamlit-app-potential-for-later)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+- [✨ Project Status](#-project-status)
+  - [🛤️ Roadmap](#️-roadmap)
+    - [Core Development](#core-development)
+    - [Machine Learning](#machine-learning)
+    - [Dashboard Development](#dashboard-development)
+    - [Code Quality and Maintenance](#code-quality-and-maintenance)
+<!-- /TOC -->
 
 ---
-
 ## Overview
 
 This project builds a machine learning model that predicts personalized biohacking recommendations based on individual lifestyle data inputs (sleep patterns, workout intensity, supplement intake, screen time, etc.).  
