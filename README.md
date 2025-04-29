@@ -200,14 +200,17 @@ This project is open-source and available under the [MIT License](LICENSE).
 > ✅ Black configured for automatic code formatting (PEP8 compliance).  
 > ✅ Ruff configured for fast code linting and quality checking.  
 > ✅ VS Code fully integrated with Black (format on save) and Pytest (test discovery and running).
-> ✅ Core data cleaning utilities development underway:
+> ✅ Core data cleaning utilities development:
 > - `drop_missing_rows(df)`
 > - `drop_columns_with_many_nans(df, threshold=0.5)`
+> - `drop_duplicate_rows(df)`
 > 
-> 🎯 Currently moving into Phase 2B:
-> - Expanding additional cleaning functions
+> 🎯 Currently moving into Phase 2C:
+> - Expanding additional data cleaning functions (filling missing values, outlier removal, standardization)
 > - Enhancing unit test coverage
 > - Beginning dataset preparation and exploratory data analysis (EDA)
+>
+
 ---
 
 ## 🛤️ Roadmap
@@ -221,7 +224,8 @@ The following milestones are planned to expand the Biohacking Personal Optimizat
 - [x] Build additional data cleaning utilities:
     - [x] 'drop_missing_rows'
     - [x] 'drop_columns_with_many_nans'
-- [x] Expand data cleaning functions (e.g., handle outliers, standardize numeric features)
+    - [x] 'drop duplicate rows'
+- [] Expand data cleaning functions (e.g., fill missing values, handle outliers, standardize numeric features)
 - [ ] Expand unit tests for new utilities and data processing functions
 - [ ] Start exploratory data analysis (EDA) on sample or personal dataset
 
